@@ -1,0 +1,9 @@
+The following link is a download for the Git SCM for windows:
+
+https://gitforwindows.org/
+
+This packages with three tools: Git Bash, Git GUI, and Shell Integration.
+
+-As for this project, we will be using Git bash to clone the repository into a folder, so whatever commits we make to
+the android studio application it will be updated to the file, as long as we clone it. Feel free to look into it when you get the chance.
+Git Bash will make a lot of things easier for us this way we can all be on the same page.
