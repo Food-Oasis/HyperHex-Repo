@@ -1,0 +1,15 @@
+This is a list of helpful links for creating the UML Object classes and deriving the interfaces from these classes. 
+
+Interfaces and Abstract Classes
+http://www.cs.sjsu.edu/~pearce/modules/lectures/oop/basics/interfaces.htm
+
+UML Class Diagram Tutorial
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
+
+Android Class Diagram UML
+https://stackoverflow.com/questions/31975109/android-class-diagram-uml
+
+UML 2 Class Diagramming Guidelines
+http://www.agilemodeling.com/style/classDiagram.htm
+
+Based on the research for UML Class Diagrams, an interface is a collection of operation signature and/or attribute definitions that ideally defines a cohesive set of behaviors.
