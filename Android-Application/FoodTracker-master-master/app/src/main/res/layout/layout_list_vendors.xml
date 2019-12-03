@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:id="@+id/parent_layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/testImage"
+        android:layout_width="128dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/vendorName_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/testImage"
+        android:text="Vendor name"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vendorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendorName_textView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/testImage"
+        android:text="Vendor Type" />
+
+    <TextView
+        android:id="@+id/vendorLocation_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendorName_textView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@+id/testImage"
+        android:text="Vendor Location" />
+
+    <TextView
+        android:id="@+id/vendorMileage_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendorLocation_textView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/testImage"
+        android:text="Vendor Mileage" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vendorMileage_textView"
+        android:layout_alignStart="@id/vendorMileage_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/testImage"
+        android:clickable="false"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Food Oasis</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_file">com.abc.preference_file</string>
+    <string name="pref_login_status">com.abc.preference_login_status</string>
+    <string name="pref_user_name">com.abc.preference_user_name</string>
+
+    <!--Main App Screen-->
+    <string name="searchButtonText">Search</string>
+    <string name="vendorButtonText">Are you a Vendor? Login here</string>
+    <string name="searchLocationField">Find Healthy Food</string>
+    <string name="descriptionTextField"> Food Oasis shows you places to find healthy food in Georgia – whether you are looking to buy, grow, or need access to free food. </string>
+
+
+
+    <!--Register Screen-->
+    <string name="businessNameField">Business Name</string>
+    <string name="registerEmailField">E-mail Address</string>
+    <string name="registerPasswordField">Password</string>
+    <string name="phoneNumberField">Phone Number</string>
+    <string name="addressField">Address</string>
+    <string name="profileButtonText">Create Profile</string>
+    <string name="hasAccountButtonText">Sign In</string>
+
+
+    <!--Login Screen-->
+    <string name="loginEmailField">E-mail Address</string>
+    <string name="loginPasswordField">Password</string>
+    <string name="loginButtonText">Registered? Log In</string>
+    <string name="registerButtonText">First time vendor? Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+
+    <!--Vendor Welcome Page-->
+
+    <string name="welcome">Vendor Dashboard</string>
+    <string name="editButtonText">Edit Information</string>
+    <string name="viewButtonText">View Profile </string>
+    <string name="logoutButtonText">Logout</string>
+</resources>

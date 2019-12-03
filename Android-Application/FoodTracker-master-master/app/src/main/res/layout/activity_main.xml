@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="382dp"
+        android:layout_height="194dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+<<<<<<< HEAD
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+=======
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+>>>>>>> splash screen
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/searchButton"
+<<<<<<< HEAD
+        android:layout_width="112dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="23dp"
+        android:background="#FF9800"
+        android:text="@string/searchButtonText"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp" />
+
+    <EditText
+        android:id="@+id/locationText"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/searchLocationField"
+        android:textColorHighlight="#4CAF50"
+        android:textColorLink="#4CAF50" />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="148dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="148dp" />
+=======
+        android:layout_width="183dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:background="#FF9800"
+        android:text="@string/searchButtonText"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+>>>>>>> splash screen
+
+    <Button
+        android:id="@+id/vendorButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="411dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/vendorButtonText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>

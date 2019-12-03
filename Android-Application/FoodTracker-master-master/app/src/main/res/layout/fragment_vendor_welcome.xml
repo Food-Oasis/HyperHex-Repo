@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".VendorLoginPage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="731dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/welcome"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewblank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Logout"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="186dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="@string/logoutButtonText"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_edit_details"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:autoLink="all"
+                android:background="#FF9800"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="@string/editButtonText"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_edit_profile"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="106dp"
+                android:autoLink="all"
+                android:background="#8BC34A"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="@string/viewButtonText"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
