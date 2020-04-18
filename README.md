@@ -12,7 +12,7 @@ Other team's repositiories
 
 
 ### Summary
-Food Oasis in an Andriod Mobile Application targeting individuals in [food deserts](https://www.google.com/search?sxsrf=ACYBGNTV-RoaQybNaSHsMWyGX-Ek6m8zWA%3A1578703141507&ei=JRkZXq3HHua8ggfB7J_ABw&q=food+desert&oq=food+deset&gs_l=psy-ab.3...0.0..7183...0.0..0.0.0.......0......gws-wiz.UmNS9FqhJac&ved=0ahUKEwjt7dG_p_rmAhVmnuAKHUH2B3gQ4dUDCAs&uact=5). These individuals tend to have below average income and limited accessibility to transportation. Food Oasis connects these individuals to nerby public gardens, farmer's markets, and businesses donating fresh food.
+Food Oasis in an Android Mobile Application targeting individuals in [food deserts](https://www.google.com/search?sxsrf=ACYBGNTV-RoaQybNaSHsMWyGX-Ek6m8zWA%3A1578703141507&ei=JRkZXq3HHua8ggfB7J_ABw&q=food+desert&oq=food+deset&gs_l=psy-ab.3...0.0..7183...0.0..0.0.0.......0......gws-wiz.UmNS9FqhJac&ved=0ahUKEwjt7dG_p_rmAhVmnuAKHUH2B3gQ4dUDCAs&uact=5). These individuals tend to have below average income and limited accessibility to transportation. Food Oasis connects these individuals to nearby public gardens, farmer's markets, and businesses donating fresh food.
 
 ### App Screenshots
 
